@@ -1,0 +1,16 @@
+﻿
+@{
+    ViewBag.Title = "WhatsApp";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>WhatsApp</h2>
+
+<form action="SendMessage" method="post">
+
+    <input id="to" type="text" />
+    <input id="msg" type="text" />
+
+    <input type="submit" value="Enviar msg" />
+
+</form>
