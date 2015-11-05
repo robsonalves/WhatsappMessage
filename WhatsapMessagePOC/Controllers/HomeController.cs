@@ -35,9 +35,9 @@ namespace WhatsapMessagePOC.Controllers
 
         public void SendMessage(string to, string msg)
         {
-            string from = "5511950405840";
+            string from = "YOUR_CEL_PHONE";
 
-            WhatsApp wa = new WhatsApp(from, "ljeQt1NKyfGP8XB+B10rtddN8xI=", "Pr0view", false, false);
+            WhatsApp wa = new WhatsApp(from, "YOUR_TOKEN_PERMISSION", "PASS", false, false);
 
             wa.OnConnectSuccess += () =>
             {
